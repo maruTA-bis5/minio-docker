@@ -1,5 +1,4 @@
-FROM minio/minio
-
+FROM minio/minio:RELEASE.2019-04-23T23-50-36Z
 RUN mkdir -p /data/mattermost-test
 
 EXPOSE 9000
